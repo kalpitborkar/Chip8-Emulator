@@ -22,6 +22,26 @@ CHIP-8 is an interpreted programming language, developed by Joseph Weisbecker. I
 | `unsigned short sp`                | Stack pointer to remember current level of stack                               |
 | `unsigned char key[16]`            | Stores the current state of the key for HEX based keypad                       |
 
+## Compiling and Running
+
+### Requires cmake and SDL2:
+```
+$ sudo apt-get install cmake libsdl2-dev
+```
+
+### Compile:
+```
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+
+### Run:
+```
+./chip8 <ROM file>
+```
+
 
 ## References
 - https://multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
