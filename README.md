@@ -42,6 +42,8 @@ $ make
 ./chip8 <ROM file>
 ```
 
+## License
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ## References
 - https://multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
